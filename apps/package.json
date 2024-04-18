@@ -1,0 +1,80 @@
+{
+  "name": "florish-gift-frontend-react",
+  "author": "Aditya Pratama Nur - Weekend",
+  "version": "2.0.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@apicase/adapter-fetch": "^0.15.1",
+    "@apicase/core": "^0.17.0",
+    "@apicase/services": "^0.8.1",
+    "dotenv": "^8.2.0",
+    "fingerprintjs2": "^2.1.2",
+    "formik": "^2.1.4",
+    "glob": "^7.1.6",
+    "helmet": "^4.4.1",
+    "js-cookie": "^2.2.0",
+    "modern-normalize": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "source-map-explorer": "^2.2.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@svgr/cli": "^5.1.0",
+    "cpx": "^1.5.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "husky": ">=6",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "imagemin-webp": "^6.0.0",
+    "lint-staged": ">=10",
+    "prettier": "^2.6.2",
+    "sass": "^1.54.8",
+    "stylelint": "^14.8.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "scripts": {
+    "build-icon": "svgr --icon --replace-attr-values '#000=currentColor' --out-dir src/components/Icon/assets/build/ src/components/Icon/assets/src/",
+    "build-js": "GENERATE_SOURCEMAP=false react-scripts --openssl-legacy-provider build",
+    "compress-image": "node addons/compress-image.mjs",
+    "convert-image": "node addons/convert-image.js",
+    "copy-to-deploy": "cpx 'build/**/*' build_deploy -C",
+    "analyze": "react-scripts build && source-map-explorer 'build/static/js/*.js'",
+    "start-js": "react-scripts --openssl-legacy-provider start",
+    "start": "yarn start-js",
+    "start-secure": "HTTPS=true yarn start-js",
+    "build": "yarn build-js && yarn copy-to-deploy && npm run compress-image",
+    "deploy": "node server.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "compile-js-unused": "react-scripts build",
+    "prepare": "cd .. && husky install apps/.husky"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

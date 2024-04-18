@@ -1,0 +1,82 @@
+@import "./variables/index";
+
+#bmSlider {
+    .swiper-wrapper {
+        margin: 0 0 10px 5px;
+    }
+    .swiper-slide  {
+        width: 254px;
+        height: 346px;
+    }
+
+}
+
+// #SliderCerita {
+//     .swiper-wrapper  {
+//         width: 224px;
+//         height: 144px;
+//     }
+
+//     .swiper-button-next,
+//     .swiper-button-prev {
+//         @include specialResponse(768px) {
+//             display: none;
+//         }
+//     }
+
+//     .swiper-button-next {
+//         width: 32px;
+//         height: 32px;
+//         border-radius: 50%;
+//         background: rgba(0, 0, 0, .5);
+//         top: calc(50% - 10px);
+//         outline: none;
+//         right: 20px;
+
+//         span {
+//             content: url("/assets/image/Matterport/swiper-up.svg");
+//             filter: brightness(0) invert(1);
+//             transform: scale(0.8, 0.8);
+//         }
+    
+//         &::after {
+//             display: none;
+//         }
+//     }
+
+//     .swiper-button-prev {
+//         width: 32px;
+//         height: 32px;
+    
+//         border-radius: 50%;
+//         background: rgba(0, 0, 0, .5);
+//         top: calc(50% - 10px);
+//         outline: none;
+
+//         left: 20px;
+
+//         span {
+//             content: url("/assets/image/Matterport/swiper-up.svg");
+//             filter: brightness(0) invert(1);
+//             transform: translateX(2px); /* Standard syntax */
+//             transform: scale(-0.8, -0.8);
+//         }
+    
+//         &::after {
+//             display: none;
+//         }
+//     }
+
+//     .swiper-button-prev.swiper-button-disabled,
+//     .swiper-button-next.swiper-button-disabled {
+//         opacity: 0.2;
+//     }
+
+//     .swiper-slide:last-child {
+//         // margin-right: 40px;
+//         // transform: translateX(-100px);
+//     }
+//     .swiper-container {
+//         padding-right: 70px;
+//     }
+// }

@@ -1,0 +1,29 @@
+# BUILD APP
+FROM node:18.7-alpine AS build-app
+WORKDIR /src
+COPY apps/package.json .
+COPY apps/yarn.lock .
+COPY apps .
+RUN apk --no-cache add pkgconfig autoconf automake libtool nasm build-base zlib-dev libpng-dev jpeg-dev libwebp libjpeg-turbo-dev
+RUN cp /src/.env.dev.example .env
+RUN yarn install
+RUN yarn build
+
+# BUILD MIDDLEWARE
+FROM node:18.7-alpine AS build-serve
+WORKDIR /server
+COPY middleware/package.json .
+COPY middleware/yarn.lock .
+COPY middleware .
+RUN cp /server/.env.dev.example .env
+RUN yarn install
+
+# BUNDLE STATIC
+FROM node:18.7-alpine AS serve
+COPY --from=build-serve /server ./server
+COPY --from=build-app /src/build_deploy ./build
+EXPOSE 3000
+
+# START APP
+WORKDIR /server
+CMD ["node", "./server.js"]

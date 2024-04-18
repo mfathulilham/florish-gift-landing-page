@@ -1,0 +1,83 @@
+$icon-size-xs: 12px;
+$icon-size-s: 16px;
+$icon-size-m: 24px;
+$icon-size-l: 32px;
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  line-height: 0;
+  fill: currentcolor;
+  box-sizing: border-box;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: unset;
+  }
+}
+
+.icon--xs {
+  width: $icon-size-xs;
+  height: $icon-size-xs;
+  font-size: $icon-size-xs;
+}
+
+.icon--s {
+  width: $icon-size-s;
+  height: $icon-size-s;
+  font-size: $icon-size-s;
+}
+
+.icon--m {
+  width: $icon-size-m;
+  height: $icon-size-m;
+  font-size: $icon-size-m;
+}
+
+.icon--l {
+  width: $icon-size-l;
+  height: $icon-size-l;
+  font-size: $icon-size-l;
+}
+
+.icon--mr {
+  margin-right: 8px;
+}
+
+.icon--ml {
+  margin-left: 8px;
+}
+
+.icon--not-found {
+  position: relative;
+  border: 1px dashed #f00;
+  border-radius: 50%;
+  animation: blinking 0.5s linear 0.2s infinite alternate;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #f00;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes blinking {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.2;
+  }
+}

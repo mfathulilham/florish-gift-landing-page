@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "ecmaFetures": {
+      "jsx": true,
+      "modules": true
+    },
+    "babelOptions": {
+      "parserOpts": {
+        "plugins": ["jsx"]
+      }
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended"
+  ]
+}
