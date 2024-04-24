@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Keranjang-Belanja---InvalidQty" transform="translate(-28.000000, -138.000000)">
+            <g id="Group-15" transform="translate(16.000000, 128.000000)">
+                <g id="Group-14" transform="translate(12.000000, 10.000000)">
+                    <g id="Group-8">
+                        <g id="Group-6">
+                            <g id="Group-5">
+                                <circle id="Oval" fill="#CA5B64" cx="8" cy="8" r="8"></circle>
+                                <path d="M8.00023047,0.00360961901 C12.4408187,0.131885891 16,3.6628926 16,8 C16,12.418278 12.3063492,16 7.75,16 L8,15.9956096 Z" id="Combined-Shape" fill="#BE202D"></path>
+                            </g>
+                        </g>
+                        <polygon id="Shape" fill="#E0E0E0" points="12 4.8 11.2 4 8 7.2 4.8 4 4 4.8 7.2 8 4 11.2 4.8 12 8 8.8 11.2 12 12 11.2 8.8 8"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

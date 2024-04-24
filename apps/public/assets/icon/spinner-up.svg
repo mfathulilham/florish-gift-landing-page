@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web-Responsive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(-977.000000, -81.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="sort-arrows-couple-pointing-up-and-down-copy-2" transform="translate(977.000000, 81.000000)">
+                <path d="M0.474925373,4.09084577 L6.83843284,4.09084577 C6.96154229,4.09084577 7.06810945,4.04589552 7.15803483,3.9559204 C7.24791045,3.86597015 7.29303483,3.75945274 7.29303483,3.63634328 C7.29303483,3.51323383 7.24793532,3.40676617 7.15803483,3.31669154 L3.97626866,0.134925373 C3.88636816,0.0450746269 3.77987562,0 3.65669154,0 C3.53350746,0 3.42701493,0.0450746269 3.3370398,0.134925373 L0.155273632,3.31669154 C0.0652985075,3.40666667 0.0203482587,3.51323383 0.0203482587,3.63634328 C0.0203482587,3.75942786 0.0652985075,3.86597015 0.155273632,3.9559204 C0.245348259,4.04589552 0.351840796,4.09084577 0.474925373,4.09084577 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

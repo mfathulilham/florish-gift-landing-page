@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="2" viewBox="0 0 12 2">
+    <defs>
+        <path id="npy017brka" d="M6.857 11h10.286c.473 0 .857.448.857 1s-.384 1-.857 1H6.857C6.384 13 6 12.552 6 12s.384-1 .857-1z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g transform="translate(-115 -1096) translate(0 783) translate(16 221) translate(93 81)">
+                                    <use fill="#000" xlink:href="#npy017brka"/>
+                                    <use fill="#BE202D" xlink:href="#npy017brka"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

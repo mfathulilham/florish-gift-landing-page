@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1,0 C1.55228475,0 2,0.44771525 2,1 L2,4 C2,4.55228475 1.55228475,5 1,5 C0.44771525,5 0,4.55228475 0,4 L0,1 C0,0.44771525 0.44771525,0 1,0 Z M1,6 C1.55228475,6 2,6.44771525 2,7 C2,7.55228475 1.55228475,8 1,8 C0.44771525,8 0,7.55228475 0,7 C0,6.44771525 0.44771525,6 1,6 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Keranjang-Belanja---InvalidQty" transform="translate(-28.000000, -612.000000)">
+            <g id="Group-6" transform="translate(0.000000, 172.000000)">
+                <g id="Group-7" transform="translate(28.000000, 440.000000)">
+                    <g id="Group-6">
+                        <g id="Group-5">
+                            <circle id="Oval" fill="#F4C627" cx="8" cy="8" r="8"></circle>
+                            <path d="M8.00023047,0.00360961901 C12.4408187,0.131885891 16,3.6628926 16,8 C16,12.418278 12.3063492,16 7.75,16 L8,15.9956096 Z" id="Combined-Shape" fill="#EC9E2E"></path>
+                        </g>
+                    </g>
+                    <g id="Icons-/-1-Primary-/-Error" transform="translate(7.000000, 4.500000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="fill" fill="#E0E0E0" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

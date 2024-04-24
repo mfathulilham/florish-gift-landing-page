@@ -18,10 +18,10 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  background-color: $color-gray;
   height: 48px;
   padding: 4px 12px;
   overflow: hidden;
-  box-shadow: 0 4px 10px #0003;
 }
 
 .navIcon {
@@ -42,7 +42,13 @@
 }
 
 .navForm {
-  display: none;
+  display: block;
+  width: 148px;
+
+  input {
+    width: 100%;
+    border-radius: 10px;
+  }
 }
 
 .navBurger {
@@ -52,6 +58,9 @@
 }
 
 @media screen and (min-width: 600px) {
+  .navIcon {
+  }
+
   .navIconText {
     display: none;
     font-size: $font-size-l;
@@ -63,32 +72,5 @@
     justify-content: center;
     text-decoration: none;
     list-style: none;
-  }
-
-  .navBurger {
-    display: none;
-  }
-
-  .navForm {
-    position: relative;
-    display: block;
-    font-size: $font-size-s;
-    width: 218px;
-    height: 28px;
-    border: 1px solid #000;
-    border-radius: 10px;
-
-    input {
-      width: 100%;
-      border-radius: 10px;
-    }
-
-    span {
-      display: block;
-      position: absolute;
-      top: 25%;
-      margin-left: 10px;
-      padding: 0;
-    }
   }
 }

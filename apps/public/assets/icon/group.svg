@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <circle id="y525ouz8ta" cx="10.909" cy="7.273" r="1.455"/>
+        <path id="1duirdrnwb" d="M2.78 12.243c.755-.489 1.302-.787 1.641-.894.34-.108.897-.174 1.673-.198L7.22 9.532c-1.39-.035-2.36.018-2.907.16-.547.14-1.392.49-2.537 1.051l1.004 1.5z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-406 -80) translate(406 80)">
+                    <g>
+                        <use fill="#747474" xlink:href="#y525ouz8ta"/>
+                        <use fill="#000" xlink:href="#y525ouz8ta"/>
+                    </g>
+                    <circle cx="8" cy="8" r="7.273" stroke="#000" stroke-width="1.455"/>
+                    <path fill="#000" d="M7.658 14.984v-3.626c.829-.856 1.912-1.283 3.251-1.283s2.468.427 3.386 1.283c-.945 1.265-1.8 2.053-2.563 2.364-.763.31-2.121.73-4.074 1.262z"/>
+                    <g stroke-linejoin="square" stroke-width="1.455">
+                        <circle cx="5.818" cy="6.545" r="1.455" stroke="#747474"/>
+                        <circle cx="5.818" cy="6.545" r="1.455" stroke="#000"/>
+                    </g>
+                    <g>
+                        <use fill="#747474" xlink:href="#1duirdrnwb"/>
+                        <use fill="#000" xlink:href="#1duirdrnwb"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

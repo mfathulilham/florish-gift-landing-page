@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Header.module.scss";
 import Image from "../Image/Image";
+import Hamburger from "../Hamburger/Hamburger";
 
 const Header = () => {
   return (
@@ -19,15 +20,23 @@ const Header = () => {
           <Link to="/">Beranda</Link>
         </li>
         <li className={styles.navItem}>
-          <Link to="/test-router">List Buket</Link>
+          <Link to="/test-router">Momen</Link>
         </li>
         <li className={styles.navItem}>
-          <Link to="/test-router">Hadiah</Link>
+          <Link to="/test-router">Produk</Link>
         </li>
       </ul>
 
+      <div className={styles.navIconText}>
+        <span>Tasiaga Bouquet</span>
+      </div>
+
+      <div className={styles.navBurger}>
+        <Hamburger checked={false} onClick={() => console.log("ADAKH")} />
+      </div>
       <div className={styles.navForm}>
-        <input type="text" placeholder="Cari sesuatu" />
+        <input type="text" />
+        <span>Cari sesuatu</span>
       </div>
     </nav>
   );
