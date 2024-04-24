@@ -9,7 +9,7 @@ const Header = () => {
       <div className={styles.navIcon}>
         <Image
           className={styles.testImage}
-          src="/assets/sample.webp"
+          src="/assets/icon-tasiaga.svg"
           fallback="/assets/sample.jpg"
           alt="This is a sample image"
         />

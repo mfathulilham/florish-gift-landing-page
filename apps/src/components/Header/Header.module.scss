@@ -15,10 +15,13 @@
 
 .navWrapper {
   display: flex;
+  width: 100%;
   align-items: center;
+  justify-content: space-between;
   background-color: $color-gray;
   height: 48px;
   padding: 4px 12px;
+  overflow: hidden;
 }
 
 .navIcon {
@@ -38,9 +41,11 @@
 }
 
 .navForm {
-  width: 128px;
+  display: block;
+  width: 148px;
 
   input {
+    width: 100%;
     border-radius: 10px;
   }
 }
