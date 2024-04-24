@@ -101,7 +101,7 @@
   flex-wrap: wrap;
   min-width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   padding: 16px 0;
 }
 
@@ -116,6 +116,10 @@
   overflow: hidden;
   box-shadow: 0 4px 10px #0003;
   border-radius: 10px;
+
+  @media screen and (min-width: 600px) {
+    width: calc(25% - 12px);
+  }
 }
 
 .productImage {
@@ -148,7 +152,7 @@
   border-radius: 12px;
 
   &:hover {
-  background-color: #840004;
+    background-color: #840004;
   }
 }
 
@@ -189,7 +193,6 @@
 
   li {
     margin: 0 6px;
-
   }
 
   li a {

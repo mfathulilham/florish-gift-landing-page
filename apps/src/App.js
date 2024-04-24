@@ -4,7 +4,6 @@ import "./scss/global.scss";
 import "./scss/App.scss";
 
 const Homepage = React.lazy(() => import("./pages/Homepage/Homepage"));
-const Testing = React.lazy(() => import("./pages/Testing/Testing"));
 
 const App = () => (
   <Suspense fallback="Loading...">
@@ -20,7 +19,6 @@ const App = () => (
       </ul> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/test-router" element={<Testing />} />
       </Routes>
     </div>
   </Suspense>
